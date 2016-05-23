@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 int main(){
-
+//
+	
     int p, n[3];
 
 	/*char stack[100];
