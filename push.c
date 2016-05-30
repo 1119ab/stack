@@ -1,17 +1,9 @@
 #include <stdio.h>
 
 int main(){
-//
-	
-    int p, n[3];
 
-	/*char stack[100];
-	
-
-    //scanf("%d\n"&n[p]);
-
-
-    stack[p] = atoi;
+    int p,q,m;
+	int stack[100];
 	void push(int a){
 		stack[p]=a;
 		p++;
@@ -19,19 +11,22 @@ int main(){
 	
 int pop(){int a;
 	a=stack[p-1];
-	p--;
-    
+	p--;    
 return a;
-
-}*/
-for(p=0;p < 3;p++){scanf("%d",&n[p]);};
-
-for(p=0;p < 3;p++){
-//if(p >= 0){
-	printf("%d\n",n[p]);
-      //    p--;
-  //    };
 }
+void add (int a, int b) {
+	int c;
+	a=pop();
+	b=pop();
+	c=a+b;
+    push(c);
+    return 0;
+}
+for(q=0;q >= 0;q++){
+	scanf("%d",&m);
+	if(m == 0){printf("%d\n",pop()); return 0;}
+	else if(m == 10){add();}
+    else(push(m));}
 
 
 }
