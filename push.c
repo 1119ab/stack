@@ -12,6 +12,7 @@ return a;}
 void add () {
 	a=pop();
 	b=pop();
+	c=b+a;
     push(c);}
 void minus (){	
 	a=pop();
